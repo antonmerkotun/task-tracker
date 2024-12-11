@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["@nuxt/types", "vite/client"]
+  },
+  "include": [
+    "nuxt.config.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "store/**/*",
+    "types/**/*.d.ts"
+  ]
+}
