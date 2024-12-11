@@ -66,15 +66,18 @@ function closeCheckRemoveCard() {
 }
 
 .remove-warning {
+  display: flex;
+  justify-content: space-between;
   background-color: #f8d7da;
   padding: 15px;
   border-radius: 6px;
   color: #721c24;
   margin-top: 20px;
+  align-items: center;
 }
 
 .remove-actions {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 </style>
